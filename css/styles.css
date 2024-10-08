@@ -35,14 +35,14 @@ header {
 .page-header__item {
   flex: 1 0 200px;
 }
+.page-header__item:nth-child(2) {
+  text-align: center;
+  font-size: 100px;
+}
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
 }
-.page-header__item:nth-child(2) {
-  justify-content: center;
-}
-
 .navigation-list {
   flex-grow: 1;
   text-align: right;
