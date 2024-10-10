@@ -75,7 +75,6 @@ a {
 }
 
 a:active {
-  /* selected link */
   color: #a1c0e6;
 }
 a:hover,
@@ -143,8 +142,6 @@ h1 {
     color: #f2f2f2;
   }
 }
-
-
 .about-text {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr ;
