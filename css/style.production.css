@@ -223,6 +223,13 @@ h1 {
     grid-row: auto/auto;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main-navigation-page-header__item{
+    display: flex;
+    justify-content: center;
+  }
+  }
+
 
 
 
