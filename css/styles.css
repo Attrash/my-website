@@ -234,12 +234,29 @@ h1 {
   }
 }
 @media only screen and (max-width: 768px) {
-  .main-navigation-page-header__item{
-    display: flex;
+  .main-navigation__page-header__item {
+    display: flex; 
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .page-header {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; /* Center elements vertically */
+  }
 
+  .page-header__item:nth-child(2) {
+    font-size: 36px; /* Adjust font size for better readability */
   }
+
+  .navigation-list {
+    text-align: center; /* Center the navigation list */
   }
+
+  .navigation-list li {
+    margin: 10px; /* Add spacing between menu items */
+  }
+}
 
 
 
